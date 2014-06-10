@@ -7,7 +7,7 @@
 */
 
     // Get the values vis POST / GET.
-    
+
 	$ffmpegCommand = "ffmpeg";
 	$videowithpath = "";
 	$path = "";
@@ -54,7 +54,7 @@ function CreateScreenShot ($sourceVideo, $createdFile, $ffmpegCommand)
 function returnNames($videowithpath)
 {
 	//Strip the string of all the data except the name of the file
-	return filenamewoextn;
+	return filenamewoextn;	//Useful to call video with this name inside the page
 }
 
 // TODO
