@@ -6,6 +6,8 @@
     Version : 0.01 beta
 */
 
+    // Get the values vis POST / GET.
+    
 	$ffmpegCommand = "ffmpeg";
 	$videowithpath = "";
 	$path = "";
